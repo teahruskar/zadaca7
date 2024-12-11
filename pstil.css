@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("media/pozadina.jpg") no-repeat center center/cover;
+    color: #fcf9c2;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+	font-family: "Playwrite HR Lijeva", serif;
+	font-weight: 400;
+	font-style: normal;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+button {
+    background-color: #536c5e;
+    color: #decfa4;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+	font-family: "Poppins", serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+button:hover {
+    background-color: #779683;
+}

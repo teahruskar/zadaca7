@@ -1,0 +1,241 @@
+
+body {
+    margin: 0;
+    padding: 0;
+	font-family: "Poppins", serif;
+	font-weight: 400;
+	font-style: normal;
+    color: #75634a;
+    background-color: #fcf9c2;
+    line-height: 1.6;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+	font-family: "Playwrite HR Lijeva", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+main {
+    padding: 1rem;
+}
+
+.intro .text-image-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+	color: #779683;
+}
+
+.intro img {
+    max-width: 50%;
+	max-height: 350px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.plan {
+    margin: 1.5rem 0;
+}
+
+.plan h2 {
+    color: #b05078;
+    border-bottom: 2px solid #b05078;
+    padding-bottom: 0.5rem;
+}
+
+.remen {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+}
+
+.remen img {
+    max-height: 300px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.uzvid {
+	max-width: 80%;
+}
+
+.link {
+	color: #3c746e;
+}
+
+video {
+    max-width: 100%;
+	max-height: 350px;
+    border-radius: 8px;
+}
+
+.video-text-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+video {
+    max-width: 30%;
+    height: auto;
+}
+
+.karta {
+	max-width: 90%;
+	align-items: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #779683;
+    color: #fcf9c2;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.contact-form {
+    background-color: #fcf9c2;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #779683;
+    font-size: 1.8rem;
+    font-family: "Playwrite HR Lijeva", serif;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #75634a;
+    font-family: "Poppins", serif;
+}
+
+.yes-no {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Poppins", serif;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #779683;
+    color: white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    font-family: "Poppins", serif;
+}
+
+button:hover {
+    background-color: #5a7f61;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+
+    .intro .text-image-container {
+        flex-direction: column;  
+        text-align: center; 
+    }
+
+    .intro img {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    .plan h2 {
+        font-size: 1.5rem; 
+    }
+
+    .remen {
+        flex-direction: column;  
+        justify-content: center;
+    }
+
+    .remen img {
+        max-width: 100%;  
+        margin-bottom: 10px;
+    }
+
+    .video-text-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    video {
+        max-width: 80%; 
+        height: auto;
+    }
+
+    .karta {
+        max-width: 100%;  
+    }
+
+    footer {
+        font-size: 0.9rem;  
+        padding: 1rem 0;
+    }
+
+    .contact-form {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .contact-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    input[type="text"] {
+        padding: 0.6rem;
+    }
+
+    button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}
